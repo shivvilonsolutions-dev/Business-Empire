@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/logo1-bg.png" />
+    <link rel="icon" href="./logo1-bg.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f59e0b" />
     <meta name="description" content="Dhan-Manthan — The Ultimate Business Tycoon Game" />
     <title>Zon-Bizz</title>
+    <link rel="manifest" href="./manifest.json" />
     <script>
         // Development ma ad errors hide karo (Optional)
         if (window.location.hostname === 'localhost' || 
@@ -31,6 +32,8 @@
             };
         }
     </script>
+    <script type="module" crossorigin src="./assets/index-BPfwnGg_.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DxMPbFW_.css">
   </head>
   <body>
     <div id="root"></div>
@@ -38,7 +41,7 @@
     <!-- GameDistribution SDK Integration -->
     <script>
         window["GD_OPTIONS"] = {
-        gameId: "%VITE_GD_GAME_ID%",  // Environment variable thi load thase
+        gameId: "",  // Environment variable thi load thase
         advertisementSettings: {
             autoplay: false,
             debug: false  // Set to false in production
@@ -67,6 +70,6 @@
     </script>
     <script src="https://html5.api.gamedistribution.com/main.min.js"></script>
 
-    <script type="module" src="/src/main.jsx"></script>
+
   </body>
 </html>

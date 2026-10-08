@@ -1,0 +1,20 @@
+{
+  "name": "Business Empire",
+  "short_name": "BusinessEmpire",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f59e0b",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "./logo1-bg.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./logo1-bg.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
